@@ -25,6 +25,8 @@ $result = curl_exec($ch);
 curl_close ($ch);
 
 class LineNotify{
+ 
+namespace KS\Line;
  const API_URL = 'https://notify-api.line.me/api/notify';
  private $token = null;
  private $http = null;
