@@ -24,15 +24,5 @@ curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
 $result = curl_exec($ch);
 curl_close ($ch);
 
-class LineNotify{
- 
-namespace KS\Line;
- const API_URL = 'https://notify-api.line.me/api/notify';
- private $token = null;
- private $http = null;
- $token = 'PUbs71L7HzkyJJftHLy15OxgmytQj5SJMZ42U2tXi0U';
-$ln = new KS\Line\LineNotify($token);
 
-$text = 'Hello Line Notify';
-$ln->send($text);
 ?>
