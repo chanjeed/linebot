@@ -1,5 +1,5 @@
 <?php
-$strAccessToken = "rFCPkP0mT7vEIvabUmdyxzpbp7UohKQp0CHRrd5q79L";
+$strAccessToken = "PUbs71L7HzkyJJftHLy15OxgmytQj5SJMZ42U2tXi0U";
  
 $strUrl = "https://api.line.me/v2/bot/message/push";
  
