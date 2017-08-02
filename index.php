@@ -10,7 +10,7 @@ $arrHeader[] = "Authorization: Bearer {$strAccessToken}";
 $arrPostData = array();
 $arrPostData['to'] = $arrJson['events'][0]['source']['userId'];
 $arrPostData['messages'][0]['type'] = "text";
-$arrPostData['messages'][0]['text'] = "นี้คือการทดสอบ Push Message";
+$arrPostData['messages'][0]['text'] = "Bot　を作っているの　待っててね！";
  
  
 $ch = curl_init();
