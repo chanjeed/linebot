@@ -8,7 +8,7 @@ $arrHeader[] = "Content-Type: application/json";
 $arrHeader[] = "Authorization: Bearer {$strAccessToken}";
  
 $arrPostData = array();
-$arrPostData['to'] = $arrJson['events'][0]['source']['userId'];
+$arrPostData['to'] =Udbc348b0351b33b31c2f85dcfffd9ff6;
 $arrPostData['messages'][0]['type'] = "text";
 $arrPostData['messages'][0]['text'] = "Bot　を作っているの　待っててね！";
  
