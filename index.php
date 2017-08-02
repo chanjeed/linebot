@@ -8,7 +8,7 @@ $arrHeader[] = "Content-Type: application/json";
 $arrHeader[] = "Authorization: Bearer {$strAccessToken}";
  
 $arrPostData = array();
-$arrPostData['to'] = "Udbc348b0351b33b31c2f85dcfffd9ff6";
+$arrPostData['to'] = $arrJson['events'][0]['source']['userId'];
 $arrPostData['messages'][0]['type'] = "text";
 $arrPostData['messages'][0]['text'] = "นี้คือการทดสอบ Push Message";
  
